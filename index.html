@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Sticky Navbar (Top) -->
+    <div class="sticky-navbar text-center px-3 py-2">
+        <p class="mb-0 small">Now is your last chance to buy a lifetime license before we switch to annual pricing.
+            Existing licenses will be unaffected.</p>
+    </div>
+
+    <!-- Second Navbar (Below Sticky) -->
+    <nav class="navbar navbar-expand-lg navbarlow">
+        <div class="container-fluid mt-2 mb-4">
+            <!-- Left: Oxygen Brand -->
+            <a class="navbar-brand ms-5" href="#">
+                <img src="img/oxygen-logo.png" alt="Oxygen" class="img-fluid" style="max-width: 150px; height: auto;">
+            </a>
+
+            <!-- Navbar Toggler for Small Screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Center: Navbar Links (Collapsible) -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav me-lg-3 mt-3 mt-lg-0 text-center text-lg-start ms-5 ms-lg-0">
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-5"> 
+                        <a class="nav-link" href="#">Power Tour</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Vs Competition</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Help</a>
+                    </li>
+                    <li class="nav-item me-5">
+                    <a class="btn btn-white mt-3 mt-lg-0" href="#">Get it Now</a>
+                       
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Third Section (Below Second Navbar) -->
+    <div class="container-fluid mt-0 mb-5 bg">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 text-center text-md-start px-3 px-md-5">
+                <h1 class="fw-bold mt-4">You'll build incredible<br> websites with Oxygen</h1>
+                <a href="#" class="btn btn-white mt-4">Get It Now</a>
+                <a href="#" class="btn btn-color mt-4 ms-md-3 d-inline-block">
+                    <i class="fa-solid fa-play"></i> Watch the video
+                </a>
+            </div>
+            <div class="col-12 col-md-6 text-center mt-4 mt-md-0">
+                <img src="img/oxygen.webp" alt="Oxygen Website" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- Fourth Section (Below Third Section) -->
+    <div class="container mt-0 mb-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                <img src="img/ox-logo-3.png" alt="Logo" class="img-fluid" width="60">
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                <img src="img/ox-logo-3.png" alt="Logo" class="img-fluid" width="60">
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                <img src="img/ox-logo-3.png" alt="Logo" class="img-fluid" width="60">
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                <img src="img/ox-logo-3.png" alt="Logo" class="img-fluid" width="60">
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                <img src="img/ox-logo-3.png" alt="Logo" class="img-fluid" width="60">
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2 mb-3 mb-lg-0">
+                <img src="img/ox-logo-3.png" alt="Logo" class="img-fluid" width="60">
+            </div>
+        </div>
+    </div>
+
+    <!-- Fifth Section (Below Fourth Section) -->
+    <div class="container-fluid bg-white mt-5 mb-5">
+        <h1 class="text-center">The reviews are in. People love Oxygen</h1>
+
+        <!-- Carousel -->
+        <div id="reviewCarousel" class="carousel slide mb-5" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row mb-5 mt-5 justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
+                            <div class="card p-4 shadow-lg" style="max-width: 22rem; border-radius: 15px;">
+                                <p class="fw-bold">What Oxygen brings to the table for agencies is just unheard of.</p>
+                                <p>This is one hell of a product. All I can say is WOW.</p>
+                                <div class="d-flex align-items-center mt-3">
+                                    <img src="img/pfp-img.jpg" class="rounded-circle img-fluid" width="50" height="50">
+                                    <div class="ms-3">
+                                        <p class="mb-0 fw-bold">Steve Crandall</p>
+                                        <p class="text-muted">Agency Owner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
+                            <div class="card p-4 shadow-lg" style="max-width: 22rem; border-radius: 15px;">
+                                <p class="fw-bold">Oxygen is the #1 reason I am taking on client projects again.</p>
+                                <p>Everything feels like so much care and attention to detail has been given.</p>
+                                <div class="d-flex align-items-center mt-3">
+                                    <img src="img/We Heart It.jpeg" class="rounded-circle img-fluid" width="50"
+                                        height="50">
+                                    <div class="ms-3">
+                                        <p class="mb-0 fw-bold">Michael Dennis</p>
+                                        <p class="text-muted">WordPress Professional</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
+                            <div class="card p-4 shadow-lg" style="max-width: 22rem; border-radius: 15px;">
+                                <p class="fw-bold">What Oxygen brings to the table for agencies is just unheard of.</p>
+                                <p>This is one hell of a product. All I can say is WOW.</p>
+                                <div class="d-flex align-items-center mt-3">
+                                    <img src="img/pfp-img-3.jpg" class="rounded-circle img-fluid" width="50"
+                                        height="50">
+                                    <div class="ms-3">
+                                        <p class="mb-0 fw-bold">Steve Crandall</p>
+                                        <p class="text-muted">Agency Owner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row mb-5 mt-5 justify-content-center">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
+                            <div class="card p-4 shadow-lg" style="max-width: 22rem; border-radius: 15px;">
+                                <p class="fw-bold">What Oxygen brings to the table for agencies is just unheard of.</p>
+                                <p>This is one hell of a product. All I can say is WOW.</p>
+                                <div class="d-flex align-items-center mt-3">
+                                    <img src="img/We Heart It.jpeg" class="rounded-circle img-fluid" width="50"
+                                        height="50">
+                                    <div class="ms-3">
+                                        <p class="mb-0 fw-bold">Steve Crandall</p>
+                                        <p class="text-muted">Agency Owner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
+                            <div class="card p-4 shadow-lg" style="max-width: 22rem; border-radius: 15px;">
+                                <p class="fw-bold">What Oxygen brings to the table for agencies is just unheard of.</p>
+                                <p>This is one hell of a product. All I can say is WOW.</p>
+                                <div class="d-flex align-items-center mt-3">
+                                    <img src="img/pfp-img-3.jpg" class="rounded-circle img-fluid" width="50"
+                                        height="50">
+                                    <div class="ms-3">
+                                        <p class="mb-0 fw-bold">Steve Crandall</p>
+                                        <p class="text-muted">Agency Owner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-3">
+                            <div class="card p-4 shadow-lg" style="max-width: 22rem; border-radius: 15px;">
+                                <p class="fw-bold">What Oxygen brings to the table for agencies is just unheard of.</p>
+                                <p>This is one hell of a product. All I can say is WOW.</p>
+                                <div class="d-flex align-items-center mt-3">
+                                    <img src="img/pfp-img.jpg" class="rounded-circle img-fluid" width="50" height="50">
+                                    <div class="ms-3">
+                                        <p class="mb-0 fw-bold">Steve Crandall</p>
+                                        <p class="text-muted">Agency Owner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center mt-4 mb-5">
+                <div class="d-flex justify-content-center w-100">
+                    <button class="btn btn-secondary rounded-circle mx-1" style="width: 10px; height: 10px;"
+                        data-bs-target="#reviewCarousel" data-bs-slide-to="0"></button>
+                    <button class="btn btn-secondary rounded-circle mx-1" style="width: 10px; height: 10px;"
+                        data-bs-target="#reviewCarousel" data-bs-slide-to="1"></button>
+                </div>
+                <button class="btn " type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sixth Section (Below Fifth Section) -->
+    <div class="container d-flex justify-content-center align-items-center mt-4 mb-4">
+        <div class="row justify-content-center w-10">
+            <div class="col-12 text-center">
+                <button type="button" class="btn btn-lg purple shadow-lg px-4 py-3">
+                    Get Oxygen
+                    <p class="we mb-0">60 days money-back guarantee</p>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Seventh Section (Below Sixth Section) -->
+    <div class="container d-flex justify-content-center align-items-center mt-5">
+        <div class="row justify-content-center mt-5">
+            <div class="col-auto">
+                <div class="rounded-circle bg-white shadow-lg d-flex justify-content-center align-items-center"
+                    style="width: 100px; height: 100px;">
+                    <div class="rounded-circle bg-white shadow-lg d-flex justify-content-center align-items-center"
+                        style="width: 50px; height: 50px;">
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Eighth Section (Below Seventh Section) -->
+    <div class="container mt-5 mb-5">
+        <h1 class="text-center mt-5 mb-5">Powerful visual editing
+            <br>for your entire website
+        </h1>
+
+        <div class="row mt-5">
+           
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card border-0 text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/images (2).png" class="mx-auto d-block mb-3" alt="Feature" width="40" height="40"
+                            style="border-radius: 50%;">
+                        <h5 class="card-title">Drag & Drop Editing</h5>
+                        <p class="card-text">Drag element edges to set spacing, or drag & drop to re-order.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card border-0 text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/images (2).png" class="mx-auto d-block mb-3" alt="Feature" width="40" height="40"
+                            style="border-radius: 50%;">
+                        <h5 class="card-title">WooCommerce</h5>
+                        <p class="card-text">Get visual control of every part of your WooCommerce store.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card border-0 text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/images (2).png" class="mx-auto d-block mb-3" alt="Feature" width="40" height="40"
+                            style="border-radius: 50%;">
+                        <h5 class="card-title">Header Builder</h5>
+                        <p class="card-text">Create custom website headers visually, including sticky and overlay
+                            headers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card border-0 text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/images (2).png" class="mx-auto d-block mb-3" alt="Feature" width="40" height="40"
+                            style="border-radius: 50%;">
+                        <h5 class="card-title">Global Colors</h5>
+                        <p class="card-text">Edit colors in one place. Changes take effect everywhere the color was
+                            used.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card border-0 text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/images (2).png" class="mx-auto d-block mb-3" alt="Feature" width="40" height="40"
+                            style="border-radius: 50%;">
+                        <h5 class="card-title">Developer Friendly</h5>
+                        <p class="card-text">Customize everything easily with flexible controls and options.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="card border-0 text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        <img src="img/images (2).png" class="mx-auto d-block mb-3" alt="Feature" width="40" height="40"
+                            style="border-radius: 50%;">
+                        <h5 class="card-title">Advanced Functionality</h5>
+                        <p class="card-text">Enhance your site with powerful features and intuitive design tools.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <button type="button" class="btn purple-btn">Get Started</button>
+        </div>
+    </div>
+
+
+    <!-- Ninth Section (Below Eighth Section) -->
+<div class="container d-flex justify-content-center align-items-center mt-5">
+    <div class="row justify-content-center mt-5 mb-5">
+        <div class="col-auto">
+            <div class="rounded-circle bg-white shadow-lg d-flex justify-content-center align-items-center"
+                style="width: 100px; height: 100px;">
+                <div class="rounded-circle bg-white shadow-lg d-flex justify-content-center align-items-center"
+                    style="width: 50px; height: 50px;">
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-body">
+    <div class="slider-container">
+        <div class="slides">
+            <!-- Slide 1 -->
+            <div class="slide text-center">
+                <p class="testimonial-text">"Oxygen is my weapon of choice to create websites. I simply can't live
+                    without it anymore. This tool enables you to surpass every limit a non-coder has and fully
+                    experience how it feels to create something amazing."</p>
+                <img src="img/pfp-img-3.jpg" class="testimonial-img mx-auto d-block">
+                <p class="author mt-2">John Doe</p>
+                <p class="role">Web Developer</p>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide text-center">
+                <p class="testimonial-text">"This is hands-down the best tool for building websites. The flexibility
+                    and speed it offers are incredible. I’ve never felt so in control of my designs."</p>
+                <img src="img/We Heart It.jpeg" class="testimonial-img mx-auto d-block">
+                <p class="author mt-2">Jane Smith</p>
+                <p class="role">UI/UX Designer</p>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide text-center">
+                <p class="testimonial-text">"Using Oxygen has completely changed my workflow. I can now build
+                    custom, high-performing websites without dealing with bloated page builders."</p>
+                <img src="img/pfp-img.jpg" class="testimonial-img mx-auto d-block">
+                <p class="author mt-2">Michael Brown</p>
+                <p class="role">Freelancer</p>
+            </div>
+        </div>
+
+        <!-- Dots Navigation -->
+        <div class="dots-container text-center mt-3">
+            <span class="dot active" onclick="moveSlide(0)"></span>
+            <span class="dot" onclick="moveSlide(1)"></span>
+            <span class="dot" onclick="moveSlide(2)"></span>
+        </div>
+    </div>
+</div>
+
+    <!-- Tenth Section (Below Ninth Section) -->
+    <div class="container-fluid mb-5 purp">
+        <div class="row mb-5 align-items-center">
+            <div class="col-12 col-md-5 text-center text-md-start mb-4">
+                <h1 class="fw-bold pay">
+                    Lifetime support. <br>
+                    Lifetime updates. <br>
+                    Pay once.
+                </h1>
+
+                <div class="d-flex justify-content-center justify-content-md-start ms-5">
+                    <button class="mt-4 btn btn-white">Get Oxygen Now</button>
+                </div>
+                
+            </div>
+    
+            <!-- Cards Section -->
+            <div class="col-12 col-md-7 mt-4 mt-md-0">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card purp border-0 text-center p-3">
+                            <img src="img/images (2).png" class="mx-auto mt-3" alt="..." width="50" height="50" 
+                                style="border-radius: 50%;">
+                            <div class="card-body">
+                                <h5 class="card-title">60 Day Guarantee</h5>
+                                <p class="card-text">Not 100% happy? <br> Get a full refund.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card purp border-0 text-center p-3">
+                            <img src="img/images (2).png" class="mx-auto mt-3" alt="..." width="50" height="50" 
+                                style="border-radius: 50%;">
+                            <div class="card-body">
+                                <h5 class="card-title">Unlimited Sites</h5>
+                                <p class="card-text">Some quick example text to build on the card title.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card purp border-0 text-center p-3">
+                            <img src="img/images (2).png" class="mx-auto mt-3" alt="..." width="50" height="50" 
+                                style="border-radius: 50%;">
+                            <div class="card-body">
+                                <h5 class="card-title">Advanced Tech</h5>
+                                <p class="card-text">Some quick example text to build on the card.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card purp border-0 text-center p-3">
+                            <img src="img/images (2).png" class="mx-auto mt-3" alt="..." width="50" height="50" 
+                                style="border-radius: 50%;">
+                            <div class="card-body">
+                                <h5 class="card-title">Unlimited Sites</h5>
+                                <p class="card-text">Some quick example text to build on the card title.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    
+
+    <!-- Eleventh Section (Below Tenth Section) -->
+    <footer class="mb-5">
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-12 col-md-3">
+                    <a class="navbar-brand ms-3 mt-4" href="#">
+                        <img src="img/oxygen-logo.png" alt="Oxygen" width="180" height="50"
+                            class="d-inline-block align-text-top">
+                    </a>
+                    <p class="mt-3 ms-2">Soflyy is proud to offer you Oxygen, our vision for what visual website design can
+                        be. We love it, and we think you will too.
+                    </p>
+                    <h5 class="text">More About Us</h5>
+                    <ul class="list-unstyled d-flex justify-content-start">
+                        <li><a href="#" class="text-decoration-none "><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="text-decoration-none ms-3"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="text-decoration-none ms-4"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#" class="text-decoration-none ms-2"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+
+                </div>
+                
+                <div class="col-12 col-md-3">
+                    <h5>Main</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-decoration-none">Vs The Competition</a></li>
+                        <li><a href="#" class="text-decoration-none">Updates</a></li>
+                        <li><a href="#" class="text-decoration-none">Try Oxygen</a></li>
+                        <li><a href="#" class="text-decoration-none">Buy Oxygen</a></li>
+                        <li><a href="#" class="text-decoration-none">Customer Login</a></li>
+                        <li><a href="#" class="text-decoration-none">Help</a></li>
+                        <li><a href="#" class="text-decoration-none">Frequently Asked Questions</a></li>
+                        <li><a href="#" class="text-decoration-none">Video Tutorials</a></li>
+                        <li><a href="#" class="text-decoration-none">Reference Manual</a></li>
+                        <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+              
+                <div class="col-12 col-md-3">
+                    <h5>Main</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-decoration-none">Vs The Competition</a></li>
+                        <li><a href="#" class="text-decoration-none">Updates</a></li>
+                        <li><a href="#" class="text-decoration-none">Try Oxygen</a></li>
+                        <li><a href="#" class="text-decoration-none">Buy Oxygen</a></li>
+                        <li><a href="#" class="text-decoration-none">Customer Login</a></li>
+                        <li><a href="#" class="text-decoration-none">Help</a></li>
+                        <li><a href="#" class="text-decoration-none">Frequently Asked Questions</a></li>
+                        <li><a href="#" class="text-decoration-none">Video Tutorials</a></li>
+                        <li><a href="#" class="text-decoration-none">Reference Manual</a></li>
+                        <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+              
+                <div class="col-12 col-md-3">
+                    <h5>Main</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-decoration-none">Vs The Competition</a></li>
+                        <li><a href="#" class="text-decoration-none">Updates</a></li>
+                        <li><a href="#" class="text-decoration-none">Try Oxygen</a></li>
+                        <li><a href="#" class="text-decoration-none">Buy Oxygen</a></li>
+                        <li><a href="#" class="text-decoration-none">Customer Login</a></li>
+                        <li><a href="#" class="text-decoration-none">Help</a></li>
+                        <li><a href="#" class="text-decoration-none">Frequently Asked Questions</a></li>
+                        <li><a href="#" class="text-decoration-none">Video Tutorials</a></li>
+                        <li><a href="#" class="text-decoration-none">Reference Manual</a></li>
+                        <li><a href="#" class="text-decoration-none">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <hr>
+
+    <footer>
+        <div class="container">
+            <div class="row mt-1 mb-1 d-flex align-items-center text-center text-md-start">
+                <div class="col-12 col-md-6">
+                    <p class="text-muted mb-0">© 2021 Oxygen Clone By Devlaib. All rights reserved.</p>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end mt-2 mt-md-0">
+                    <ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-md-end">
+                        <li><a href="#" class="text-decoration-none me-3">Legal</a></li>
+                        <li><a href="#" class="text-decoration-none me-3">Trademark Policy</a></li>
+                        <li><a href="#" class="text-decoration-none me-3 border p-2">Customer Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- Slider JS -->
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelector(".slides");
+    const dots = document.querySelectorAll(".dot");
+
+    function moveSlide(index) {
+        currentIndex = index;
+        const offset = -index * 100;
+        slides.style.transform = `translateX(${offset}%)`;
+
+        dots.forEach(dot => dot.classList.remove("active"));
+        dots[index].classList.add("active");
+    }
+</script>
+
+
+    <script src="script.js"></script>
+
+
+    <!-- Bootstrap JS (Required for navbar toggling) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
